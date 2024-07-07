@@ -24,7 +24,7 @@ python server.py
 And for the frontend-repo:
 
 ```bash
-cd ../backend-repo
+cd frontend-repo
 python client.py
 ```
 
