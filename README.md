@@ -6,7 +6,7 @@ To enable reading the global variable found inside config.yaml, install the foll
 pip install requests pyyaml
 ```
 
-Then navigate to backend-repo using:
+Then navigate to the backend-repo using:
 
 ```bash
 cd backend-repo
@@ -27,3 +27,7 @@ To commit and push all the changes accross all submodules at the same time as we
 ```bash
 ./push.sh "your commit message"
 ```
+
+### Github Actions Workflow
+
+The repo features a Github Actions workflow to locally update the parent repo using `git submodule update --remote --merge` whenever a push is initiated on one of the submodule repositories regardless of whether the push is originating from a different collaborator or not.
