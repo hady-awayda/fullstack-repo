@@ -1,2 +1,2 @@
-config:
-  run_localhost: True
+run_localhost: true
+another_variable: some_value
