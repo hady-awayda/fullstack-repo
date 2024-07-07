@@ -1,6 +1,10 @@
 ### Cloning the repository
 
-Clone the repo, then use `git submodule update --init` to initialize and clone the submodules.
+Clone the repo, then initialize and clone the submodules using:
+
+```bash
+git submodule update --init
+```
 
 ### Using configuration variables
 
