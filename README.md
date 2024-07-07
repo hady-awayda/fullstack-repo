@@ -10,12 +10,14 @@ Then navigate to backend-repo using:
 
 ```bash
 cd backend-repo
+python server.py
 ```
 
-And run the python script using:
+And for the frontend-repo:
 
 ```bash
-python server.py
+cd ../backend-repo
+python client.py
 ```
 
 ### Unified push
