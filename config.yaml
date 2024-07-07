@@ -1,1 +1,5 @@
-run_localhost == True
+# config.yaml
+run_localhost: true
+server_host: "localhost"
+server_port: 8080
+client_timeout: 30
