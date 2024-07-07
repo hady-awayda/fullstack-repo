@@ -1,3 +1,7 @@
+### Cloning the repository
+
+Clone the repo, then use `git submodule update --init` to initialize and clone the submodules.
+
 ### Using configuration variables
 
 To enable reading the global variable found inside config.yaml, install the following python dependencies:
