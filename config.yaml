@@ -1,1 +1,2 @@
-run_localhost == True
+config:
+  run_localhost: True
